@@ -1,126 +1,108 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
-<head>
-	<meta charset="UTF-8">
-	<title>JR Photography HTML Site</title>
-	<link rel="stylesheet" href="css/reset.css" media="screen" />
-	<!--[if lt IE 9]>
-	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	<link rel="stylesheet" href="css/supersized.css" media="screen" />
-	<link rel="stylesheet" href="css/tipsy.css" media="screen" />
-	<link rel="stylesheet" href="theme/supersized.shutter.css" media="screen" />
-	<link rel="stylesheet" href="css/tipsy.css" media="screen" title="no title" >
-	<link rel="stylesheet" href="css/fonts/nid2/style.css" media="screen" />
-	<link rel="stylesheet" href="css/style.css" media="all" />
-<!-- Shared on MafiaShare.net  --><!-- Shared on MafiaShare.net  --></head>
-<body>
-	<script>
-		var slides_config = {
-			name: '01',
-			count: 11
-		};
-	</script>
-	<header class="header_main">
-		<div class="logo"><a href="index.html"><img src="images/logo.png" alt="Logo" /></a></div>
-		<div class="header_gal off">
-			<div class="galleries">
-				<ul class="gallery_list">
-					<li class="gallery_list_item"><a class="gallery_link active" href="#">Portraits</a></li>
-					<li class="gallery_list_item"><a class="gallery_link" href="#">Nature</a></li>
-					<li class="gallery_list_item"><a class="gallery_link" href="#">Food &amp; Drinks</a></li>
-				</ul>
-				<ul class="gallery_list">
-					<li class="gallery_list_item"><a class="gallery_link" href="#">Fashion</a></li>
-					<li class="gallery_list_item"><a class="gallery_link" href="#">Travel</a></li>
-					<li class="gallery_list_item"><a class="gallery_link" href="#">Wedding</a></li>
-				</ul>
-			</div>
-			<div class="galleries_switch">
-				<div class="p1"></div>
-				<div class="p2"></div>
-				<div class="p3"></div>
-			</div>
-		</div>
-	</header>
-	<header class="header_images off">
-		<a href="#" class="gallery_image_btn"></a>
-		<div class="gallery_images">
-			<div class="gallery_controls">
-				<a class="control" href="javascript:{}"><img id="pauseplay" src="images/play.png" class="control" alt="Pause/Play" /></a>
-				<a class="control down" href="#"></a>
-				<a class="control up" href="#"></a>
-			</div>
-			<div class="gallery_thumbs" id="thumb-tray">
-			</div>
-		</div>
-	</header>
-	<div class="content">
-		<div class="contact_desc">
-			<p>9870 St Vincent Place,<br />
-			Glasgow, DC 45 Fr 45.</p>
-			<ul class="contacts">
-				<li><div class="contact_icon ci_phone"></div>+1 800 603 6035</li>
-				<li><div class="contact_icon ci_email"></div><a href="mailto:mail@companyname.com">mail@companyname.com</a></li>
-				<li><div class="contact_icon ci_twitter"></div><a href="http://twitter.com/companyname">twitter.com/companyname</a></li>
-				<li><div class="contact_icon ci_skype"></div><a href="skype:companyname?call">companyname</a></li>
-				<li><div class="contact_icon ci_fb"></div><a href="http://facebook.com/companyname">facebook.com/companyname</a></li>
-			</ul>
-		</div>
-		<div class="contact_form">
-			<form id="contact_form" method="post">
-				<div class="contact_form_side1">
-					<p><input class="contact_textfield" type="text" name="name" id="name" value="Name" /></p>
-					<p><input class="contact_textfield" type="text" name="email" id="email" value="E-Mail" /></p>
-					<p><input class="contact_textfield" type="text" name="subject" id="subject" value="Subject" /></p>
-				</div>
-				<div class="contact_form_side2">
-					<textarea name="message" id="message" class="contact_textarea">Message</textarea>
-				</div>
-				<div class="contact_form_btns">
-					<input type="reset" class="btn" value="CLEAR" />
-					<input type="submit" class="btn" value="SEND" />
-				</div>
-			</form>
-		</div>
-	</div>
-	<footer class="footer_main">
-		<nav>
-			<ul class="menu">
-				<li class="menu_item"><a class="menu_item_link" href="index.html">Home</a></li>
-				<li class="menu_item"><a class="menu_item_link" href="about.html">About</a></li>
-				<li class="menu_item"><a class="menu_item_link" href="blog.html">Blog</a></li>
-				<li class="menu_item"><a class="menu_item_link active" href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-		<ul class="socials">
-			<li class="social_item"><a class="social_item_link fb" href="#"></a></li>
-			<li class="social_item"><a class="social_item_link tw" href="#"></a></li>
-			<li class="social_item"><a class="social_item_link fl" href="#"></a></li>
-		</ul>
-		<div class="content_toggle"></div>
-		<div class="copyright">
-			&copy; 2011 JR Photography. All Rights Reserved.
-		</div>
-	</footer>
-	<!--Time Bar-->
-	<div id="progress-back" class="load-item">
-		<div id="progress-bar"></div>
-	</div>
-	<script src="js/jquery-1.7.min.js"></script>
-	<script src="js/jquery.tipsy.js"></script>
-	<script src="js/jquery.cookie.js"></script>
-	<script src="js/jquery-ui-1.8.16.custom.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/supersized.3.2.5.js"></script>
-	<script src="theme/supersized.shutter.js"></script>
-	<script src="js/run.js"></script>
-       <!-- Start of StatCounter Code for Default Guide -->
-<a title="godaddy counter"
-href="http://statcounter.com/godaddy_website_tonight/"
-target="_blank"><img
-src="http://c.statcounter.com/7408043/0/33cb7595/1/"
-alt="godaddy counter" style="border:none;"></a>
-<!-- End of StatCounter Code for Default Guide -->
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Neha photo studio</title>
+        <link rel="stylesheet" href="css/reset.css" media="screen" />
+        <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="css/supersized.css" media="screen" />
+        <link rel="stylesheet" href="css/tipsy.css" media="screen" />
+        <link rel="stylesheet" href="theme/supersized.shutter.css" media="screen" />
+        <link rel="stylesheet" href="css/tipsy.css" media="screen" title="no title" >
+        <link rel="stylesheet" href="css/fonts/nid2/style.css" media="screen" />
+        <link rel="stylesheet" href="css/style.css" media="all" />
+        <!-- Shared on MafiaShare.net  --><!-- Shared on MafiaShare.net  --></head>
+    <body>
+        <script>
+            var slides_config = {
+            name: '01',
+            count: 11
+            };
+        </script>
+        <header class="header_main">
+        <div class="logo"><a href="index.html"><img src="images/logo.png" alt="Logo" /></a></div>
+        <div class="header_gal off">
+            <div class="galleries">
+                <ul class="gallery_list">
+                    <li class="gallery_list_item"><a class="gallery_link active" href="#">Portraits</a></li>
+                    <li class="gallery_list_item"><a class="gallery_link" href="#">Nature</a></li>
+                    <li class="gallery_list_item"><a class="gallery_link" href="#">Food &amp; Drinks</a></li>
+                </ul>
+                <ul class="gallery_list">
+                    <li class="gallery_list_item"><a class="gallery_link" href="#">Fashion</a></li>
+                    <li class="gallery_list_item"><a class="gallery_link" href="#">Travel</a></li>
+                    <li class="gallery_list_item"><a class="gallery_link" href="#">Wedding</a></li>
+                </ul>
+            </div>
+            <div class="galleries_switch">
+                <div class="p1"></div>
+                <div class="p2"></div>
+                <div class="p3"></div>
+            </div>
+        </div>
+        </header>
+        <header class="header_images off">
+        <a href="#" class="gallery_image_btn"></a>
+        <div class="gallery_images">
+            <div class="gallery_controls">
+                <a class="control" href="javascript:{}"><img id="pauseplay" src="images/play.png" class="control" alt="Pause/Play" /></a>
+                <a class="control down" href="#"></a>
+                <a class="control up" href="#"></a>
+            </div>
+            <div class="gallery_thumbs" id="thumb-tray">
+            </div>
+        </div>
+        </header>
+        <div class="content">
+            <div class="contact_desc">
+                <p>9870 St Vincent Place,<br />
+                Glasgow, DC 45 Fr 45.</p>
+                <ul class="contacts">
+                    <li><div class="contact_icon ci_phone"></div>+1 800 603 6035</li>
+                    <li><div class="contact_icon ci_email"></div><a href="mailto:mail@companyname.com">mail@companyname.com</a></li>
+                    <li><div class="contact_icon ci_twitter"></div><a href="http://twitter.com/companyname">twitter.com/companyname</a></li>
+                    <li><div class="contact_icon ci_fb"></div><a href="http://facebook.com/companyname">facebook.com/companyname</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <footer class="footer_main">
+        <nav>
+        <ul class="menu">
+            <li class="menu_item"><a class="menu_item_link" href="index.html">Home</a></li>
+            <li class="menu_item"><a class="menu_item_link" href="about.html">About</a></li>
+            <li class="menu_item"><a class="menu_item_link active" href="contact.html">Contact</a></li>
+        </ul>
+        </nav>
+        <ul class="socials">
+            <li class="social_item"><a class="social_item_link fb" href="#"></a></li>
+            <li class="social_item"><a class="social_item_link tw" href="#"></a></li>
+        </ul>
+        <div class="content_toggle"></div>
+        <div class="copyright">
+            &copy; 2013 Neha photo studio. All Rights Reserved.
+        </div>
+        </footer>
+        <!--Time Bar-->
+        <div id="progress-back" class="load-item">
+            <div id="progress-bar"></div>
+        </div>
+        <script src="js/jquery-1.7.min.js"></script>
+        <script src="js/jquery.tipsy.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+        <script src="js/jquery-ui-1.8.16.custom.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/supersized.3.2.5.js"></script>
+        <script src="theme/supersized.shutter.js"></script>
+        <script src="js/run.js"></script>
+        <!-- Start of StatCounter Code for Default Guide -->
+        <a title="godaddy counter"
+            href="http://statcounter.com/godaddy_website_tonight/"
+            target="_blank"><img
+            src="http://c.statcounter.com/7408043/0/33cb7595/1/"
+            alt="godaddy counter" style="border:none;"></a>
+        <!-- End of StatCounter Code for Default Guide -->
+    </body>
 </html>
